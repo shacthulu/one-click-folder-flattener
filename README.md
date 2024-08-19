@@ -35,7 +35,7 @@ One-Click Folder Flattener is a dead simple client-side, private, web-based tool
 
 ## How It Works
 
-One-Click Folder Flattener processes your project structure, whether it's from local files/directories or a GitHub repository, and creates a flat structure where all files are in a single directory. The original file paths are placed into the new file names to preserve the structure information. You may optionally enter a GitHub token to avoid aggressive rate limiting.  This is stored locally in your browser. This can be exported as a static site.
+One-Click Folder Flattener processes your project structure, whether it's from local files/directories or a GitHub repository, and creates a flat structure where all files are in a single directory. The original file paths are placed into the new file names to preserve the structure information. The web app is single, static site executing client-side. All file and directory information stays local, including the ZIP process. You may optionally enter a GitHub token to avoid aggressive rate limiting.
 
 > [!NOTE]
 > GitHub rate limits unauthenticated API calls by IP address to 60/hour. If you add a token, you get 15,000 per account.  Check the [GitHub Integration and Privacy](#github-integration-and-privacy) section for more info.

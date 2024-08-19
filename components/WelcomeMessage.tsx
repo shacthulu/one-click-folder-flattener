@@ -27,7 +27,7 @@ export default function WelcomeMessage() {
                 </Button>
             </div>
             <div className={ `overflow-hidden transition-all duration-300 ease-in-out ${ isExpanded ? 'max-h-96' : 'max-h-0' }` }>
-                <p>This tool simplifies the process of gathering files from local directories or GitHub repositories, making it easier to attach them to AI chat projects while preserving file structure context. <b>Everything happens client-side. Nothing is sent to the server.</b> This tool is a simple static site, hosted on Vercel&apos;s CDN, running in an isolated browser session. Safe for use with your employer, personal information, or conspiracy theory. Code available on GitHub for verification. <br />
+                <p>This tool simplifies the process of gathering files from local directories or GitHub repositories, making it easier to attach them to AI chat projects while preserving file structure context. <b>Everything happens client-side. No filenames, tokens or contents are sent to a server.</b> This tool is a simple static webpage hosted on Vercel&apos;s CDN. Safe for use with your employer, personal information, steamy fanfic or conspiracy theory. Vercel gives basic anonymized analytics for anyone pulling the page from their CDN (browser, referrer, country, OS). Code is available on GitHub for transparency. <br />
                 Follow these 3 simple steps:</p>
                 <ol className="list-decimal list-inside my-2">
                     <li>Choose your files (local or from GitHub)</li>
