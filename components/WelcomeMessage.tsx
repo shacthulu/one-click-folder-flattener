@@ -34,7 +34,7 @@ export default function WelcomeMessage() {
                     <li>Review and flatten the file structure</li>
                     <li>Download the zipped, flattened files</li>
                 </ol>
-                <p>Note that browser limitations may currently fail if the GitHub server response fails or is too long, or when creating very large zip files. This won&apos;t affect many users. Exact size limitations vary but are most often seen around 2GB.  If you encounter issues, consider flattening smaller sections.</p>
+                <p>Since everything is local, you are subject to browser limitations including available memory. The fetch may fail if the GitHub server response is too long, or when creating very large zip files. This won&apos;t affect many users. Try to keep the ZIP below 2GB.  If you encounter issues, consider flattening smaller sets of files.</p>
             </div>
         </div>
     )
