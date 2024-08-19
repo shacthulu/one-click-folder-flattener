@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import '../styles/globals.css';
+import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Analytics } from "@vercel/analytics/react"
 
@@ -16,8 +16,7 @@ function MyApp( { Component, pageProps }: AppProps ) {
     <meta name="twitter:title" content="One-Click Folder Flattener" />
     <meta name="twitter:description" content="Flatten directory structures for easier file management." />
   </Head><Component { ...pageProps } />
-    {/* Disabling analytics for now. If there's an influx of bots or something that costs $$ or something I may have to turn it back on. */ }
-    {/* <Analytics /> */}
+    <Analytics />
   </> );
 }
 

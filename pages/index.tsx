@@ -1,4 +1,4 @@
-import DirectoryFlattener from '../components/DirectoryFlattener';
+import DirectoryFlattener from '@/components/DirectoryFlattener';
 
 export default function Home() {
   return (

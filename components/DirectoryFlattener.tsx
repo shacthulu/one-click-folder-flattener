@@ -3,14 +3,14 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { FolderOpen, Github, Download, Trash2, FileText, Loader2, Key, Heart, XCircle, Paperclip, ListTree, BetweenVerticalStart, Lightbulb, XIcon, Star } from 'lucide-react';
+import { FolderOpen, Github, Download, Trash2, FileText, Loader2, Key, Heart, XCircle, Paperclip, ListTree, BetweenVerticalStart, Lightbulb, XIcon } from 'lucide-react';
 import JSZip from 'jszip';
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from './ui/dialog';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
-import { TabbedPopoverContent } from './TokenInstructionPopover';
-import { ScopeRepositoryPopover } from './ScopeRepositoryPopover';
-import WelcomeMessage from './WelcomeMessage';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { TabbedPopoverContent } from '@/components/TokenInstructionPopover';
+import { ScopeRepositoryPopover } from '@/components/ScopeRepositoryPopover';
+import WelcomeMessage from '@/components/WelcomeMessage';
 
 interface GitHubFile {
     name: string;

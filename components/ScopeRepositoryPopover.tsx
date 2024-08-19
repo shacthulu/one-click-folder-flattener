@@ -1,8 +1,8 @@
 import React from 'react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { DownloadIcon, FolderIcon, Github, X } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { DownloadIcon, FolderIcon} from 'lucide-react';
+import { Card, CardContent} from '@/components/ui/card';
 
 export function ScopeRepositoryPopoverContent() {
     return (
