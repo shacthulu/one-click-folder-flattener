@@ -11,7 +11,7 @@ function MyApp( { Component, pageProps }: AppProps ) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:title" content="One-Click Folder Flattener" />
     <meta property="og:description" content="Easily flatten directory structures with our tool." />
-    <meta property="og:url" content="https://bitfire.ai/tools/one-click-folder-flattener" />
+    <meta property="og:url" content="https://folder-flattener.bitfire.dev" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="One-Click Folder Flattener" />
     <meta name="twitter:description" content="Flatten directory structures for easier file management." />
