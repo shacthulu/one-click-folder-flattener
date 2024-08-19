@@ -74,8 +74,8 @@ awesome-chatgpt-prompts/
 ...
 
 Flattened Structure:
-awesome-chatgpt-prompts_.github_FUNDING.yml
-awesome-chatgpt-prompts_.github_contentcodex.png
+awesome-chatgpt-prompts::.github::FUNDING.yml
+awesome-chatgpt-prompts::.github::contentcodex.png
 ...
 ```
 
