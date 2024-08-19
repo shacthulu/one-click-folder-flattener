@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { output: "export", basePath: "/tools/one-click-folder-flattener" };
+const nextConfig = { output: "export"};
 
 export default nextConfig;
