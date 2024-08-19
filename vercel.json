@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "one-click-folder-flattener",
-  "alias": ["folder-flattener.bitfire.ai"],
+  "alias": ["folder-flattener.bitfire.dev"],
   "routes": [
     {
       "src": "/tools/one-click-folder-flattener/(.*)",
