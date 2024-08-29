@@ -136,8 +136,9 @@ npm run dev
    - Click "Download Flattened Files" to get a zip file of the processed files
 
 6. **Using with Claude.ai**:
-   - Upload the downloaded zip file to Claude.ai's project files feature
-   - You can now reference these files in your conversations with Claude, maintaining context about their original structure
+   - Unzip the files into a directory
+   - Shift+select all files when prompted by Claude.ai's project files feature
+   - The contents will now be placed in the ClaudeAI context, maintaining context about their original structure
 
 ## Configuration
 
